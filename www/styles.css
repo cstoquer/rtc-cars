@@ -1,0 +1,90 @@
+body {
+	font-family: verdana;
+	background-color: #7F7F7F;
+}
+
+canvas {
+	position: absolute;
+	top: 10px;
+	left: 235px;
+	width: 400px;
+	height: 400px;
+	background-color: #AAA;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px #333;
+}
+
+.userColor {
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+	display: inline-block;
+	margin-bottom: 4px;
+	margin-right: 5px;
+	box-shadow: 1px 1px 10px #333;
+}
+
+.controlButton {
+	font-size: 20px;
+	width: 50px;
+	height: 50px;
+	border-radius: 30px;
+	position: absolute;
+	bottom: 10px;
+	background-color: rgba(200,200,200,0.3);
+	box-shadow: 1px 1px 10px #333;
+}
+
+.userName {
+	font-size: 25px;
+	font-style: italic;
+	display: inline-block;
+	font-weight: bolder;
+}
+
+.peerContainer {
+	width: 220px;
+}
+
+.peer {
+	font-size: 20px;
+	padding: 5px;
+	margin-bottom: 4px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px #333;
+	background-color: #777;
+}
+
+.container {
+	width: 100%;
+}
+
+.input {
+	width: 150px;
+	height: 15px;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.button {
+	width: 50px;
+	height: 20px;
+	background-color: #FFF;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 15px;
+	display: inline-block;
+	margin-left: 3px;
+}
+
+.chatContainer {
+	width: 100%;
+}
+
+.messageBox {
+	font-size: 10px;
+	border-radius: 5px;
+	padding: 3px;
+	margin: 1px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
